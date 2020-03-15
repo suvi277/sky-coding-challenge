@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## About Project
+## Sky Coding Test
 
 This is a small app to demonstrate the below points
 ```
@@ -11,6 +11,23 @@ This is a small app to demonstrate the below points
  Content Loader
 
 ```
+
+### About
+The App consists of two routers
+
+1. Home Page - Dashboard of Time Range Data
+   * Using Chart.js and timeseries restful API plotted graph
+ 
+2. Stream Page - Loaded List of Video Streams
+
+   * Used react-content-loader for PWA
+   * Rendered list of video streams with metat data
+   * on Hover added little animation tweaks
+
+More Details
+1. App is responsive
+2. Added test specs for some files
+3. Used rail-style folder structure
 
 ### TODO
 
@@ -24,9 +41,9 @@ However, Jest was able to find:
     	'components/Provider.js'
 ```
 
-## Setup Project
+## Editor Project
 
-This project is setup with
+This editor is setup with
 ```
 .eslintrc
 .prettier
