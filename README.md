@@ -10,7 +10,7 @@ This is a small app to demonstrate the below points
  Redux workflow
  Basic Animation
  Content Loader
-
+ Unit Testing
 ```
 
 ### About
@@ -30,21 +30,8 @@ The App consists of two routers
 More Details
 
 1. App is responsive
-2. Added test specs for some files
+2. Added Unit Testing
 3. Used rail-style folder structure
-
-### TODO
-
-Incomplete test , as there were some error due to the following, hence deleted the spec files for now
-
-```
-Test suite failed to run
-
-Cannot find module 'react' from 'Provider.js'
-
-However, Jest was able to find:
-    	'components/Provider.js'
-```
 
 ## Editor Project
 
