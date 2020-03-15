@@ -1,14 +1,12 @@
 import React from 'react';
 import MainLayout from 'components/hoc/Layout';
 import PageHeading from 'components/pageHeading/PageHeading';
-import VideoStreams from 'containers/videoStreams/VideoStreams';
 
-const Home = () => {
+const NotFound = () => {
 	return (
 		<MainLayout>
-			<PageHeading title="Video Streams" />
-			<VideoStreams />
+			<PageHeading title="Oops Page Not Found" />
 		</MainLayout>
 	);
 };
-export default Home;
+export default NotFound;

@@ -6,7 +6,7 @@ import Placeholder from 'components/placeholder/Placeholder';
 import Aux from 'components/hoc/Aux';
 import FadeIn from 'react-fade-in';
 
-class VideoStreams extends Component {
+export class VideoStreams extends Component {
 	componentDidMount() {
 		this.props.fetchStreamData();
 	}

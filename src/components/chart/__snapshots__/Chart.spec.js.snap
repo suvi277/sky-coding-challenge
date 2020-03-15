@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Component renders as expected 1`] = `
+<Aux>
+  <h4
+    className="text-center"
+  />
+  <Line
+    data={
+      Object {
+        "datasets": Array [
+          Object {
+            "borderColor": "#FF550B",
+            "borderWidth": 3,
+            "data": Array [],
+            "fill": false,
+            "label": "Data",
+            "pointBackgroundColor": "#FF550B",
+            "pointBorderWidth": 3,
+            "pointHoverBackgroundColor": "#FFFFFF",
+          },
+        ],
+        "labels": Array [],
+      }
+    }
+    height={250}
+    options={
+      Object {
+        "legend": Object {
+          "display": false,
+        },
+        "scales": Object {
+          "xAxes": Array [
+            Object {
+              "gridLines": Object {
+                "borderDash": Array [
+                  2,
+                  5,
+                ],
+                "lineWidth": 2,
+                "zeroLineColor": "#EEEEEE",
+                "zeroLineWidth": 1,
+              },
+              "scaleLabel": Object {
+                "display": true,
+                "fontColor": "#563D7C",
+                "fontSize": 25,
+                "labelString": "Values",
+                "lineHeight": 3,
+              },
+              "ticks": Object {
+                "beginAtZero": true,
+                "fontColor": "#666666",
+                "fontSize": 14,
+              },
+            },
+          ],
+          "yAxes": Array [
+            Object {
+              "gridLines": Object {
+                "borderDash": Array [
+                  2,
+                  5,
+                ],
+                "lineWidth": 2,
+                "zeroLineColor": "#EEEEEE",
+                "zeroLineWidth": 1,
+              },
+              "scaleLabel": Object {
+                "display": true,
+                "fontColor": "#563D7C",
+                "fontSize": 25,
+                "labelString": "Values",
+                "lineHeight": 3,
+              },
+              "ticks": Object {
+                "beginAtZero": true,
+                "fontColor": "#666666",
+                "fontSize": 14,
+              },
+            },
+          ],
+        },
+        "tooltips": Object {
+          "backgroundColor": "rgba(0,122,92, 0.8)",
+          "displayColors": false,
+          "yAlign": "bottom",
+        },
+      }
+    }
+    width={600}
+  />
+</Aux>
+`;

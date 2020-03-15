@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Streams Component renders as expected 1`] = `
+<MainLayout>
+  <PageHeading
+    title="Video Streams"
+  />
+  <Connect(VideoStreams) />
+</MainLayout>
+`;

@@ -12,6 +12,12 @@ export default function timeSeries(state = initialState, action) {
 				...state,
 				isLoaded: false
 			};
+		case ACTION_TYPES.REJECTED_TIMESERIES:
+			return {
+				...state,
+				error: action.error,
+				isLoaded: false
+			};
 		case ACTION_TYPES.LOADED_TIMESERIES:
 			return {
 				...state,

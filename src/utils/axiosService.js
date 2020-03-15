@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { history } from 'store';
 import { toast } from 'react-toastify';
 
 class AxiosService {
@@ -14,11 +15,8 @@ class AxiosService {
 
 	onError = (error) => {
 		switch (error.response.status) {
-			case 403:
-				toast.error('Rate Limit Exceeded');
-				break;
 			case 404:
-				toast.error('Oops! 404 Error');
+				history.push('/not-found');
 				break;
 			default:
 				toast.error('Oops! Some Internal Error Found');
@@ -27,8 +25,11 @@ class AxiosService {
 		return Promise.reject(error);
 	};
 
-	get(path, callback) {
-		return this.service.get(path).then((response) => callback(response.status, response.data));
+	get(path, callback, errorCallBack) {
+		return this.service
+			.get(path)
+			.then((response) => callback(response.status, response.data))
+			.catch((error) => errorCallBack(error));
 	}
 }
 

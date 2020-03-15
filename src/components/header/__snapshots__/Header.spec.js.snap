@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Component renders as expected 1`] = `
+<header
+  className="sticky-top navbar bg-dark p-0"
+>
+  <div
+    className="container"
+  >
+    <Logo />
+    <Navigation
+      routes={
+        Array [
+          Object {
+            "component": [Function],
+            "exact": true,
+            "key": "home",
+            "label": "Home",
+            "path": "/",
+          },
+          Object {
+            "component": [Function],
+            "key": "streams",
+            "label": "Streams",
+            "path": "/content",
+          },
+        ]
+      }
+    />
+  </div>
+</header>
+`;

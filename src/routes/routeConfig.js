@@ -1,16 +1,26 @@
-import Home from '../pages/Home/Home';
-import Streams from '../pages/Streams/Streams';
+import React from 'react';
+import Home from 'pages/home/Home';
+import Streams from 'pages/streams/Streams';
+import NotFound from 'pages/notFound/NotFound';
 
 export const ROUTES = [
-    {
-      path: "/",
-      key: 'Home',
-      exact: true,
-      component: Home
-    },
-    {
-      path: "/content",
-      key: 'Streams',
-      component: Streams
-    }
-  ];
+	{
+		path: '/',
+		key: 'home',
+		label: 'Home',
+		exact: true,
+		component: Home
+	},
+	{
+		path: '/content',
+		key: 'streams',
+		label: 'Streams',
+		component: Streams
+	},
+	{
+		path: '/not-found',
+		key: 'notFound',
+		label: 'Not Found',
+		component: NotFound
+	}
+];

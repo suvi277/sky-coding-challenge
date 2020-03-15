@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimeSeries Container when renders renders as expected 1`] = `
+<div
+  className="loader"
+>
+  <div
+    className="spinner-border text-warning"
+  />
+</div>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Component renders as expected 1`] = `
+<ul
+  className="nav justify-content-end"
+>
+  <li
+    className="nav-item"
+    key="0"
+  >
+    <NavLink
+      className="nav-link p-3"
+      exact={true}
+      to="/"
+    >
+      Home
+    </NavLink>
+  </li>
+  <li
+    className="nav-item"
+    key="1"
+  >
+    <NavLink
+      className="nav-link p-3"
+      to="/content"
+    >
+      Streams
+    </NavLink>
+  </li>
+</ul>
+`;

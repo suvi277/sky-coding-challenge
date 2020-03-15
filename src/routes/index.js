@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route } from 'react-router';
-import '../_shared/styles/main.scss';
+import '_shared/styles/main.scss';
 import { ROUTES } from './routeConfig';
 
 function Routes() {

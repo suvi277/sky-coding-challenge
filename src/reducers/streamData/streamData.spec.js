@@ -44,4 +44,26 @@ describe('Stream Data Reducer', () => {
 			});
 		});
 	});
+
+	describe('REJECTED_STREAMDATA', () => {
+		const mockError = {
+			testing: []
+		};
+		it('should get the error', () => {
+			const state = {
+				...initialState
+			};
+
+			expect(
+				streamData(state, {
+					type: ACTION_TYPES.REJECTED_STREAMDATA,
+					error: mockError
+				})
+			).toEqual({
+				...state,
+				error: mockError,
+				isLoaded: false
+			});
+		});
+	});
 });

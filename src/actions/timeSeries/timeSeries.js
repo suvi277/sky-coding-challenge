@@ -15,14 +15,24 @@ export const timeSeriesLoaded = (payload) => {
 	};
 };
 
+export const timeSeriesRejected = (error) => {
+	return {
+		type: ACTION_TYPES.REJECTED_TIMESERIES,
+		error
+	};
+};
+
 export const fetchTimeSeries = () => {
-	return async (dispatch) => {
-		try {
-			return await AxiosService.get(`${API_ENDPOINT}/data`, (status, data) => {
+	return (dispatch) => {
+		dispatch(timeSeriesRequested());
+		return AxiosService.get(
+			`${API_ENDPOINT}/data`,
+			(status, data) => {
 				dispatch(timeSeriesLoaded(data));
-			});
-		} catch (error) {
-			console.log('Error');
-		}
+			},
+			(error) => {
+				dispatch(timeSeriesRejected(error));
+			}
+		);
 	};
 };

@@ -1,0 +1,1124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoStreams Container renders as expected 1`] = `
+<div
+  className="d-flex flex-wrap"
+>
+  <svg
+    aria-labelledby="fn137p-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="fn137p-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#fn137p-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#fn137p-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="fn137p-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="fn137p-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="coqitx-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="coqitx-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#coqitx-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#coqitx-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="coqitx-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="coqitx-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="k8it5o6-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="k8it5o6-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#k8it5o6-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#k8it5o6-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="k8it5o6-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="k8it5o6-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="3evaybe-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="3evaybe-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#3evaybe-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#3evaybe-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="3evaybe-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="3evaybe-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="wvvilye-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="wvvilye-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#wvvilye-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#wvvilye-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="wvvilye-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="wvvilye-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="2tkx0ju-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="2tkx0ju-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#2tkx0ju-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#2tkx0ju-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="2tkx0ju-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="2tkx0ju-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="kxhu9r4-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="kxhu9r4-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#kxhu9r4-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#kxhu9r4-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="kxhu9r4-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="kxhu9r4-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="92dmu1-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="92dmu1-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#92dmu1-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#92dmu1-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="92dmu1-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="92dmu1-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="784zlmk-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="784zlmk-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#784zlmk-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#784zlmk-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="784zlmk-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="784zlmk-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="w85ikdm-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="w85ikdm-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#w85ikdm-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#w85ikdm-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="w85ikdm-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="w85ikdm-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="0b6a7rb-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="0b6a7rb-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#0b6a7rb-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#0b6a7rb-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="0b6a7rb-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="0b6a7rb-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+  <svg
+    aria-labelledby="h2t249c-aria"
+    height={200}
+    id={null}
+    primaryColor="#f3f3f3"
+    role="img"
+    secondaryColor="#ecebeb"
+    style={
+      Object {
+        "marginBottom": "12px",
+        "marginLeft": "15px",
+      }
+    }
+    width={250}
+  >
+    <title
+      id="h2t249c-aria"
+    >
+      Loading...
+    </title>
+    <rect
+      clipPath="url(#h2t249c-diff)"
+      height="100%"
+      role="presentation"
+      style={
+        Object {
+          "fill": "url(#h2t249c-animated-diff)",
+        }
+      }
+      width="100%"
+      x="0"
+      y="0"
+    />
+    <defs
+      role="presentation"
+    >
+      <clipPath
+        id="h2t249c-diff"
+      >
+        <rect
+          height="200"
+          rx="5"
+          ry="5"
+          width="100%"
+          x="0"
+          y="0"
+        />
+      </clipPath>
+      <linearGradient
+        id="h2t249c-animated-diff"
+      >
+        <stop
+          offset="0%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-2; -2; 1"
+          />
+        </stop>
+        <stop
+          offset="50%"
+          stopColor="#eee"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="-1; -1; 2"
+          />
+        </stop>
+        <stop
+          offset="100%"
+          stopColor="#f5f6f7"
+          stopOpacity={1}
+        >
+          <animate
+            attributeName="offset"
+            dur="2s"
+            keyTimes="0; 0.25; 1"
+            repeatCount="indefinite"
+            values="0; 0; 3"
+          />
+        </stop>
+      </linearGradient>
+    </defs>
+  </svg>
+</div>
+`;

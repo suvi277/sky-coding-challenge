@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotFound Component renders as expected 1`] = `
+<MainLayout>
+  <PageHeading
+    title="Oops Page Not Found"
+  />
+</MainLayout>
+`;

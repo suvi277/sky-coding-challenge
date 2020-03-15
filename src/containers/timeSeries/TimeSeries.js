@@ -6,7 +6,7 @@ import Chart from 'components/chart/Chart';
 import Aux from 'components/hoc/Aux';
 import moment from 'moment';
 
-class TimeSeries extends Component {
+export class TimeSeries extends Component {
 	componentDidMount() {
 		this.props.fetchTimeSeries();
 		this.prepareChartData();

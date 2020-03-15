@@ -17,7 +17,7 @@ const Chart = ({ labels, lineData, day }) => {
 	return (
 		<Aux>
 			<h4 className="text-center">{day}</h4>
-			<LineChart data={chartData} options={options} width="600" height="250" />
+			<LineChart data={chartData} options={options} width={600} height={250} />
 		</Aux>
 	);
 };

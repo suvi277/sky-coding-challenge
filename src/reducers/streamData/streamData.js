@@ -12,6 +12,12 @@ export default function streamData(state = initialState, action) {
 				...state,
 				isLoaded: false
 			};
+		case ACTION_TYPES.REJECTED_STREAMDATA:
+			return {
+				...state,
+				error: action.error,
+				isLoaded: false
+			};
 		case ACTION_TYPES.LOADED_STREAMDATA:
 			return {
 				...state,
