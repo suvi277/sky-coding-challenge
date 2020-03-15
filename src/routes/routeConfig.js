@@ -1,4 +1,3 @@
-import React from 'react';
 import Home from 'pages/home/Home';
 import Streams from 'pages/streams/Streams';
 import NotFound from 'pages/notFound/NotFound';
