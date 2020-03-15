@@ -1,0 +1,63 @@
+@import '../../_shared/styles/variable';
+@import '../../_shared/styles/mixin';
+
+.card {
+  margin: 20px 15px;
+  padding: 10px;
+  border: none;
+  background-color: $white;
+  cursor: pointer;
+  transition: transform 1s ease;
+
+  .desc {
+    font-size: 12px;
+  }
+  .card-title {
+    font-size: 12px;
+    font-weight: 800;
+    color: $success;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  .card-overlay {
+    .provider {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .desc {
+      font-size: 12px;
+    }
+  }
+
+  .stream-media img {
+    transition: transform 1.5s ease;
+    will-change: transform;
+  }
+
+  &:hover {
+    @include transform(scale(1.1));
+
+    background-color: $info;
+    color: $white;
+
+    .card-title {
+      color: $light;
+    }
+
+    .stream-media img {
+      @include transform(scale(1.05));
+    }
+  }
+
+  @media screen and (min-width: 576px) {
+    width: calc(100% / 2 - 30px);
+  }
+
+  @media screen and (min-width: 768px) {
+    width: calc(100% / 4 - 30px);
+  }
+}

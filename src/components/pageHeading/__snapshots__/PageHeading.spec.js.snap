@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageHeading Component renders as expected 1`] = `
+<h1
+  className="pt-4 text-center text-uppercase"
+/>
+`;

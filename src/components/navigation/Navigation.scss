@@ -1,0 +1,13 @@
+@import "../../_shared/styles/variable";
+
+.nav-link {
+	&.active {
+		background-color: $primary;
+        color: $light;
+    }
+    
+    &:not(.active):hover {
+        background-color: $secondary;
+		color: $light;
+    }
+}

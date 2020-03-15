@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo Component renders as expected 1`] = `
+<a
+  className="navbar-brand"
+  href="/"
+>
+  <img
+    alt="logo"
+    src="https://www.sky.com/assets/masthead/images/sky-logo.png"
+    width="50"
+  />
+</a>
+`;
